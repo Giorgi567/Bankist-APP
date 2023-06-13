@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  background-color: #f3f3f3;
+  height: 90vh;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+nav {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.Welc {
+  font-size: 18px;
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+.logo {
+  position: relative;
+  left: 850px;
+  width: 70px;
+  bottom: 35px;
+  margin: auto;
+}
+.user-input {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  text-align: center;
+  width: 12rem;
+  border-radius: 10rem;
+  margin-right: 1rem;
+  color: inherit;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+  color: gray;
+  position: relative;
+  left: 1590px;
+  bottom: 45px;
+}
+.submit-btn {
+  width: 55px;
+  height: 25px;
+  position: relative;
+  left: 1575px;
+  bottom: 95px;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+main {
+  height: 650px;
+  opacity: 0;
+  transition: 1.3s;
+}
+
+.main-div {
+  width: 105rem;
+  height: 650px;
+  position: relative;
+  left: 420px;
+}
+.total-money {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  text-align: end;
+  position: relative;
+  bottom: 65px;
+}
+.child-text {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #666;
+}
+
+.transaction {
+  width: 550px;
+  height: 450px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 12px;
+  overflow-x: hidden;
+}
+.transacton {
+  border: 1px solid gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 73px;
+}
+
+.transaction-Information {
+  width: 490px;
+  height: 35px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.WITHDRAWAL_DEPOSIT_box {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  position: relative;
+  font-size: 10px;
+  border-radius: 16px;
+}
+.statemnt-class {
+  position: relative;
+  top: 5px;
+}
+.WITHDRAWAL_DEPOSIT_box-DEPOSIT {
+  background: linear-gradient(
+    to left top,
+    rgb(57, 179, 133),
+    rgb(155, 225, 93)
+  );
+  position: relative;
+  left: 15px;
+  color: white;
+}
+.WITHDRAWAL_DEPOSIT_box-WITHDRAWAL {
+  position: relative;
+  left: 19px;
+  background-color: red;
+  color: white;
+  width: 100px;
+}
+.dateOfTransaction {
+  font-size: 10px;
+  position: relative;
+  left: 90px;
+  bottom: 10px;
+  color: gray;
+}
+.moneyamout {
+  position: relative;
+  left: 410px;
+  bottom: 30px;
+  color: black;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+.moneyamout-WITHDRAWAL {
+  position: relative;
+  left: 390px;
+}
+.parent-box {
+  width: 450px;
+  height: 450px;
+  position: relative;
+  left: 1020px;
+  bottom: 547px;
+}
+.Money {
+  width: 440px;
+  height: 139px;
+  border-radius: 11px;
+}
+
+.Money-Transfer {
+  background-image: linear-gradient(
+    to left top,
+    rgb(255, 176, 3),
+    rgb(255, 203, 3)
+  );
+}
+
+.Money-loan {
+  background-image: linear-gradient(
+    to left top,
+    rgb(57, 179, 133),
+    rgb(155, 225, 93)
+  );
+}
+.Money-account-closing {
+  background-image: linear-gradient(
+    to left top,
+    rgb(229, 42, 90),
+    rgb(255, 88, 95)
+  );
+}
+.title {
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  position: relative;
+  top: 28px;
+  left: 40px;
+}
+.inputof {
+  height: 30px;
+  width: 140px;
+  border-radius: 12px;
+  border: none;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  opacity: 30%;
+  transition: 0.5s;
+  font-size: 16px;
+  outline: none;
+}
+.inputof:focus {
+  opacity: 70%;
+}
+.inputof-number {
+  position: relative;
+  left: 40px;
+}
+.submit {
+  width: 63px;
+  font-size: 1.8rem;
+  height: 34px;
+  display: inline-block;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.submit-transfer {
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+.submit-loan {
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+.submit-delete {
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+.label {
+  font-size: 15px;
+}
+.label-ToWho {
+  position: relative;
+  right: 285px;
+  top: 70px;
+}
+.label-amout {
+  position: relative;
+  left: 220px;
+  top: 43px;
+}
+.label-amout-loan {
+  position: relative;
+  right: 130px;
+  top: 70px;
+}
+.label-user {
+  position: relative;
+  left: 65px;
+  top: 40px;
+  display: block;
+}
+.label-pin {
+  position: relative;
+  left: 205px;
+  top: 17px;
+  display: block;
+}
+.sum-ofall {
+  padding-top: 25px;
+  display: flex;
+}
+.Avrage-out {
+  position: relative;
+  left: 40px;
+}
+.Avrage-intrest {
+  position: relative;
+  left: 80px;
+}
+.inTotal {
+  font-size: 25px;
+  position: relative;
+  bottom: 10px;
+  padding-left: 5px;
+  color: rgb(102, 200, 115);
+}
+.outTotal {
+  font-size: 25px;
+  position: relative;
+  bottom: 10px;
+  left: 45px;
+  color: rgb(245, 70, 93);
+}
+.totalIntrest {
+  font-size: 25px;
+  position: relative;
+  left: 85px;
+  bottom: 10px;
+  color: rgb(102, 200, 115);
+}
+.Avrage-Sort {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  bottom: 55px;
+  left: 920px;
+  cursor: pointer;
+}

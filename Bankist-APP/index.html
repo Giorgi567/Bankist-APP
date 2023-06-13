@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css"/>  
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <h1 class="Welc">Login to get started</h1>
+      <img class="logo" src="/Bankist-APP/image/logo.png" alt="" />
+      <form class="login-form">
+      <input type="text" placeholder="User"  class="user-input user-input-username"></input >
+      <input type="text" placeholder="PIN" class="user-input user-input-pin" maxlength="4"  ></input >
+      <button type="submit" class="submit-btn" >&rarr;</button>  
+    </form>
+    </nav>
+    <!-- Transactions DEPOSIT/WITHDRAWAL -->
+    <main class="main-content" >
+      <div class="main-div">
+        <div class="balance-box">
+          <div><h1>Current balance</h1>
+          <h3 class="child-text">As of 05/03/2037</h3>
+          </div>
+          <p class="total-money" >0000€</p>
+
+          <div class="transaction  transaction-section">
+          <div class="transacton transacton_DEPOSIT-row" >
+            <div class="transaction-Information transaction-Information-DEPOSIT">
+              <div class="WITHDRAWAL_DEPOSIT_box WITHDRAWAL_DEPOSIT_box-DEPOSIT">
+                <Strong class="statemnt-class statemnt-class-DEPOSIT"> DEPOSIT</Strong>
+                <h2 class="dateOfTransaction dateOfTransaction-DEPOSIT" >3 DAYS AGO</h2>
+                <div class="moneyamout moneyamout-DEPOSIT">4000 €</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="transacton transaction-section" >
+            <div class="transaction-Information transaction-Information-WITHDRAWAL">
+               <div class="WITHDRAWAL_DEPOSIT_box WITHDRAWAL_DEPOSIT_box-WITHDRAWAL">
+                  <strong class="statemnt-class statemnt-class-WITHDRAWAL" > WITHDRAWAL</strong>
+                    <h2 class="dateOfTransaction dateOfTransaction-WITHDRAWAL" >24/01/2027</h2>
+                    <div class="moneyamout moneyamout-WITHDRAWAL">-347€</div>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <form class="sum-form"  >
+          <div class="sum-ofall">
+            <h2 class="Avrage Avrage-in" >IN <h2 class="inTotal" >0000 €</h2></h2>
+            <h2 class="Avrage Avrage-out" >OUT <h2 class="outTotal" >0000 €</h2></h2>
+            <h2 class="Avrage Avrage-intrest" >INTREST <h2 class="totalIntrest" >00000 €</h2></h2>
+            
+          </div>
+        </form>
+      </div>
+      <button type="submit" class="Avrage Avrage-Sort" >&downarrow; SORT</button>  
+
+    
+      <!-- end of "Transactions DEPOSIT/WITHDRAWAL" code section -->
+
+      <!-- start of Money Transfer/Money Loan/Accoutn Closing -->
+
+      <div class="parent-box">
+        <form  >
+         <div class="Money Money-Transfer">
+          <h2 class="title title-transfer" >Transfer Money</h2>
+          <input class="inputof inputof-name" type="text">
+          <input class="inputof inputof-number-transfer" type="number">
+          <button type="submit" class="submit submit-transfer" >&rarr;</button>  
+          <label class="label label-ToWho">Transfer to</label>
+          <label class="label label-amout">Amount</label>
+         </div>
+
+         &nbsp; 
+         <div class="Money Money-loan">
+          <h2 class="title title-loan" >Loan Money</h2>
+          <input class="inputof inputof-number" type="number">
+          <button type="submit" class="submit submit-loan" >&rarr; </button>  
+          <label class="label label-amout-loan">Amount</label>
+         </div>
+
+         &nbsp; 
+         <div class="Money Money-account-closing">
+          <h2 class="title title-delete" >Close account</h2>
+          <input class="inputof inputof-delete-name" type="text">
+          <input class="inputof inputof-id" maxlength="4"  type="password">
+          <button type="submit" class="submit submit-delete" >&rarr;</button>  
+          <label class="label label-user">Confrim user</label>
+          <label class="label label-pin" >Confrim PIN</label>
+
+         </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="./dist/index.js"></script>
+  </body>
+</html>
