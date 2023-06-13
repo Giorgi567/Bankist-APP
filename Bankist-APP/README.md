@@ -1,24 +1,18 @@
 # Bankist-APP
 
 Clone of https://bankist.netlify.app/
-IMPORTANT: 1.Install Node, 2. change styling of ".user-input" in stlye css to this
-.user-input {
-border: none;
-padding: 0.5rem 2rem;
-font-size: 1.6rem;
-font-family: inherit;
-text-align: center;
-width: 12rem;
-border-radius: 10rem;
-margin-right: 1rem;
-color: inherit;
-border: 1px solid #fff;
-transition: all 0.3s;
-color: gray;
+IMPORTANT: 2. change styling of ".submit-btn" in stlye css to this
+.submit-btn {
+width: 55px;
+height: 25px;
 position: relative;
-left: 1590px;
+left: 1575px;
 bottom: 45px;
-}
+background-color: transparent;
+border: none;
+font-size: 25px;
+cursor: pointer;
+};
 
 4 accounts in total;
 NOTE:usernames are case sensitive
